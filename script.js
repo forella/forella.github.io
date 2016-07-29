@@ -1,8 +1,8 @@
 var text = [
 	"",
 	"Hey baby!",
-	"Happy one month!",
-	"As cheesy as it is",
+	"As a surprise, I thought I'd make this site for you.",
+	"Cheesy as it is",
 	"here's a list of things",
 	"that I love about you.",
 	"You're beautiful.",
@@ -16,7 +16,6 @@ var text = [
 	"You're a dime.",
 	"Overall baby, you're the perfect girl.",
 	"I'm so happy we're together.",
-	"Once again, happy one month!",
 	"Love, Eric."
 ];
 
