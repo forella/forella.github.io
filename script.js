@@ -1,5 +1,10 @@
 var text = [
 	"",
+	"dab",
+	"dab",
+	"dab",
+	"dab"
+	/*
 	"Hey baby!",
 	"As a surprise, I thought I'd make this site for you.",
 	"Cheesy as it is",
@@ -18,6 +23,7 @@ var text = [
 	"and I'm so happy that we're together.",
 	"Yours,",
 	"Eric <3"
+	*/
 ];
 
 //Change text every X seconds
