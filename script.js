@@ -1,6 +1,6 @@
 var text = [
     "",
-	"dear Ella",
+    "dear Ella",
 	"thought I'd make this site for you to celebrate your birthday!",
     "i know this is pretty gay",
 	"but here's a list of things I like about you",
@@ -21,7 +21,7 @@ var text = [
     "good taste in men",
     "youre JACKED",
     "and honestly, the last three months that I've known",
-    "you for have been pretty amazing"
+    "you for have been pretty amazing",
     "anyway (no s), hope you have a wonderful day",
     "love (hanging out with you)",
     "Eric"
