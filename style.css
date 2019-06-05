@@ -2,14 +2,6 @@ html, body {
 	margin: 0;
 	font-family: 'Raleway', sans-serif;
 }
-#border {
-	height: 8%;
-	background-color: black;
-	opacity: 0.7;
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
 #main {
 	height: 100%;
 	background-image: url("background.jpg");
@@ -17,18 +9,13 @@ html, body {
 	position: relative;
 	z-index: -1;
 }
-p {
-	color: white;
-	padding-left: 35px;
-	font-size: 1em;
-}
 #text {
 	position: fixed;
 	width: 100%;
 	top: 45%;
 	text-align: center;
 	color: white;
-	font-size: 1.4em;
+	font-size: 2em;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	transition: opacity 0.5s ease-in;
 }

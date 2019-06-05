@@ -1,31 +1,38 @@
 var text = [
-	"",
-	"Hey baby!",
-	"As a surprise, I thought I'd make this site for you.",
-	"Cheesy as it is",
-	"here's a list of things",
-	"that I love about you.",
-	"You're beautiful",
+    "",
+	"Dear Ella",
+	"Thought I'd make this site for you to celebrate your birthday!",
+    "I know this is pretty gay",
+	"but here's a list of things I like about you",
+	"You're GORGEOUS",
 	"You're hilarious",
-	"You're understanding",
-	"You're extremely supportive",
+	"All the friends/office references",
+    "The gibberish (jk i hate it)",
+    "Your little girl demeanor",
+    "Your laugh",
+    "The ponytails",
 	"You have an INSANE booty",
-	"You make me feel happier than I ever have",
-	"We have the best possible time together",
-	"We're fuckin relationship goalz",
 	"You're a dime",
-	"Overall, you're the perfect girl",
-	"and I'm so happy that we're together.",
-	"Yours,",
-	"Eric <3"
+    "Straight model",
+    "Like I'm literally dating a model, pretty sick",
+    "You're really considerate",
+    "ur pretty good at SMASHing",
+    "great taste in food",
+    "good taste in men",
+    "youre JACKED",
+    "Anyway (no s), hope you have a wonderful day",
+    "Love (hanging out with you), Eric",
 ];
 
 //Change text every X seconds
 setInterval(function() {
 	document.getElementById("text").style.opacity = "0";
 	setTimeout(function() {
+        if (!text[0]) {
+            text[0] = '';
+        }
 		document.getElementById("text").innerHTML = text[0];
 		document.getElementById("text").style.opacity = "1";
 	}, 500);
-	text.push(text.shift());
+	text.shift();
 }, 4000);
